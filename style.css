@@ -6,12 +6,9 @@
 
 
 /* logo */
-header{
+
+nav{
     margin-top: 40px;
-    
-}
-.nav{
-    margin: 40px;
 }
 .logo{
     height: 30px;
@@ -27,3 +24,44 @@ header{
     padding: 10px;
     width: 150px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 50px;
+}
+  
+.left-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-right: 100px;
+ }
+  
+.right-element {
+    align-self: flex-end;
+}
+
+.mockup{
+    height: 500px;
+}
+
+.hero-button{
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.hero-headline{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 700;
+}
+  
