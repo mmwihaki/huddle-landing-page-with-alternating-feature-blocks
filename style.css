@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@800&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* logo */
+header{
+    margin-top: 40px;
+    
+}
+.nav{
+    margin: 40px;
+}
+.logo{
+    height: 30px;
+    float: left;
+}
+
+.cta-top{
+    border-radius: 40px;
+    float: right;
+    background-color: white;
+    color: hsl(208, 11%, 55%);
+    border: 2, solid, black;
+    padding: 10px;
+    width: 150px;
+}
