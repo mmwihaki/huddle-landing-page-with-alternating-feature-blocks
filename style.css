@@ -33,14 +33,19 @@ nav{
     margin-top: 50px;
 }
   
-.left-elements {
+.grow-together-left {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 150px;
     margin-right: 100px;
- }
+}
+
+.flowing-conversations{
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
   
 .right-element {
     align-self: flex-end;
@@ -63,5 +68,16 @@ nav{
 .hero-headline{
     /* font-family: 'Poppins', sans-serif; */
     font-weight: 700;
+}
+
+#illustration{
+    height: 400px;
+}
+
+.feature{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 50px;
 }
   
