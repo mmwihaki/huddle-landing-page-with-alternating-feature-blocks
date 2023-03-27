@@ -6,6 +6,7 @@
 
 body{
     margin: 0;
+    height: 100vh;
 }
 
 
@@ -116,6 +117,7 @@ footer{
     margin-bottom: 0px;
     margin-top: 200px;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .location{
@@ -138,6 +140,17 @@ flex: 1; /* allow text to wrap */
 
 .logo-box{
     margin-bottom: 30px;
+}
+
+.social{
+    display: flex;
+}
+
+.social-icon{
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
 }
   
   
