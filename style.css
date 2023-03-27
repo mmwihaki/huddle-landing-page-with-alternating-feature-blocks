@@ -23,6 +23,7 @@ nav{
 
 .cta-top{
     border-radius: 40px;
+    border: none;
     float: right;
     background-color: white;
     color: hsl(208, 11%, 55%);
@@ -108,4 +109,35 @@ nav{
     padding: 50px;
     margin-top: 50px;
 }
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+.location{
+    padding-right: 20px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+margin-right: 10px; /* add some space between icon and text */
+padding-top: 10;
+}
+
+.text {
+flex: 1; /* allow text to wrap */
+}
+
+.logo-box{
+    margin-bottom: 30px;
+}
+  
   
