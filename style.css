@@ -130,8 +130,8 @@ footer{
 }
 
 .icon {
-margin-right: 10px; /* add some space between icon and text */
-padding-top: 10;
+    margin-right: 10px; /* add some space between icon and text */
+    padding-top: 10;
 }
 
 .text {
@@ -152,5 +152,25 @@ flex: 1; /* allow text to wrap */
     border-radius: 50%;
     margin: 10px;
 }
+
+.relative{
+    position: relative;
+}
+
+.floating-cta {
+    /* set the position of the floating div to absolute */
+    position: absolute;
+    /* set the top and left positions to position the div */
+    top: 2500px;
+    height: 200px;
+    width: 50%;
+    /* set the z-index to a higher value than the main section and footer */
+    z-index: 999;
+  }
+
+  .floating-feature{
+    margin: auto;
+    align-items: center;
+  }
   
   
